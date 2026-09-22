@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "concurrently -k -n \"server,client\" -c \"blue,green\" \"npm run dev:server\" \"npm run dev:client\"",
-    "dev:server": "cross-env NODE_ENV=development tsx watch server/main.ts",
+    "dev:server": "cross-env NODE_ENV=development tsx watch --tsconfig tsconfig.node.json server/main.ts",
     "dev:client": "cross-env NODE_ENV=development vite --config vite.config.ts",
     "gen:db-schema": "npx -y @lark-apaas/db-schema-sync@latest --output server/database/schema.ts --export-custom-types",
     "gen:openapi": "echo 'UNSUPPORTED, SKIP'",
