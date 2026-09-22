@@ -1,0 +1,14 @@
+{
+  "id": "food_trace_bitable_import_export_1",
+  "pluginKey": "@official-plugins/feishu-bitable",
+  "pluginVersion": "1.0.22",
+  "name": "食迹应用多维表格导入导出",
+  "description": "食迹应用的飞书多维表格数据导入导出功能，支持批量新增记录（导出）和搜索记录（导入）",
+  "icon": "",
+  "paramsSchema": {},
+  "formValue": {
+    "appToken": "{{input.appToken}}",
+    "tableID": "{{input.tableID}}",
+    "fields": []
+  }
+}
