@@ -99,7 +99,7 @@
     "postcss-import": "^16.1.1",
     "prettier": "^3.6.2",
     "react-refresh": "^0.17.0",
-    "stylelint": "^16.11.0",
+    "stylelint": "^17.15.0",
     "tailwindcss": "^4.1.13",
     "ts-jest": "^29.4.3",
     "tsx": "^4.20.6",
